@@ -9,7 +9,7 @@
 
 ## ✨ Inspiration
 
-This project has been heavily inspired by Tamik. His GitHub repository can be found (here)['https://github.com/ironsoul0/ironsoul.ninja'].
+This project has been heavily inspired by Tamik. His GitHub repository can be found [here]('https://github.com/ironsoul0/ironsoul.ninja').
 
 ## 🛠 Wanna run on your machine?
 
@@ -26,7 +26,12 @@ This project has been heavily inspired by Tamik. His GitHub repository can be fo
    npm i
    ```
 
-3. Start the development server
+3. Setup your Environment Variables
+
+- change this file name .env.example to .env
+- open .env and populate the file with the required keys from [Emailjs](https://www.emailjs.com/)
+
+4. Start the development server
 
    ```sh
    npm run dev

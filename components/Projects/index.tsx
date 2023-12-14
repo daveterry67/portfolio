@@ -5,14 +5,14 @@ import { ProjectCard } from "./libs/ProjectCard";
 
 const projects = [
   {
-    title: "Moviebox",
+    title: "Creon",
     subtitle: "",
     description:
-      "This is a movie discovery web application that allows users to search for movies and view details about them.",
-    technologies: ["ReactJS", "Tailwind", "React-Query", "Typescript"],
-    externalLink: "https://moviebox-chi.vercel.app/",
-    githubLink: "https://github.com/andemosa/moviebox",
-    imageLink: "/images/moviebox.webp",
+      "This is a pixel-perfect integration of a landing page for Creon, an NFT, AI web project",
+    technologies: ["NextJS", "Tailwind", "ShadcnUI", "Typescript"],
+    externalLink: "https://creon-andemosa.vercel.app/",
+    githubLink: "https://github.com/andemosa/creon",
+    imageLink: "/images/creon.webp",
   },
   {
     title: "Next-Amazona",

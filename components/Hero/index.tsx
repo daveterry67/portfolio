@@ -39,11 +39,8 @@ export const Hero: FC = () => {
       </div>
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         Web developer and Technical writer <br />
-        Currently performing full-stack magic at{" "}
-        <HeroLink title="Skibble" href="https://skibble.app/" />
-        <br />
-        Previously{" "}
-        <HeroLink title="Hackernoon" href="https://hackernoon.com/" /> and{" "}
+        Previously&nbsp;
+        <HeroLink title="Hackernoon" href="https://hackernoon.com/" /> and&nbsp;
         <HeroLink title="Dantown" href="https://godantown.com/" />
       </p>
       <div className="flex mt-8">

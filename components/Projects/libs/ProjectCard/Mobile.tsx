@@ -1,7 +1,7 @@
-import { MediaIcon } from "components";
 import { FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
 
+import { MediaIcon } from "components";
 
 interface Props {
   title: string;
@@ -23,7 +23,7 @@ const arrayToString = (array: string[]) => {
   return array.join(", ");
 };
 
-export const ProjectCard = ({
+export const MobileProjectCard = ({
   title,
   subtitle,
   description,

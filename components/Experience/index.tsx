@@ -10,11 +10,11 @@ const experience = [
   {
     title: "Full-stack Developer",
     place: "Skibble",
-    date: "June 2023 - Present",
+    date: "June 2023 - Mar 2024",
   },
   {
     title: "Frontend Web Developer",
-    place: "Helixgade Technologies Limited",
+    place: "Helixgade Technologies (Contract)",
     date: "Feb 2023 - June 2023",
   },
   {

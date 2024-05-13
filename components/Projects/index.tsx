@@ -1,7 +1,8 @@
 import { Section } from "components";
 import { FC } from "react";
 
-import { ProjectCard } from "./libs/ProjectCard";
+import { DesktopProjectCard } from "./libs/ProjectCard/Desktop";
+import { MobileProjectCard } from "./libs/ProjectCard/Mobile";
 
 const projects = [
   {
@@ -15,16 +16,6 @@ const projects = [
     imageLink: "/images/creon.webp",
   },
   {
-    title: "Next-Amazona",
-    subtitle: "",
-    description:
-      "This is an e-commerce app similar to amazon where users can purchase items",
-    technologies: ["NextJS", "Typescript", "MaterialUI", "MongoDB"],
-    externalLink: "https://next-ts-ecommerce.vercel.app/",
-    githubLink: "https://github.com/andemosa/next-ts-ecommerce",
-    imageLink: `/images/ecommerce.webp`,
-  },
-  {
     title: "Countries",
     subtitle: "",
     description:
@@ -35,21 +26,30 @@ const projects = [
     imageLink: `/images/search.webp`,
   },
   {
-    title: "Admin Dashboard",
+    title: "Next-Amazona",
     subtitle: "",
     description:
-      "Data visualization dashboard with interactive charts showcasing key insights",
+      "This is an e-commerce app similar to amazon where users can purchase items",
+    technologies: ["NextJS", "Typescript", "MaterialUI", "MongoDB"],
+    externalLink: "https://next-ts-ecommerce.vercel.app/",
+    githubLink: "https://github.com/andemosa/next-ts-ecommerce",
+    imageLink: `/images/ecommerce.webp`,
+  },
+  {
+    title: "Task Manager",
+    subtitle: "",
+    description:
+      "A task manager application allowing users to add, edit, delete and view all tasks to be carried out per day",
     technologies: [
       "ReactJS",
       "NodeJS",
       "Typescript",
-      "MaterialUI",
-      "Nivo Charts",
-      "Redux Toolkit",
+      "React-Redux",
+      "Tailwind",
     ],
-    externalLink: "https://ecomvision-fe.vercel.app/dashboard",
-    githubLink: "https://github.com/andemosa/ecomvision-fe",
-    imageLink: `/images/dash.webp`,
+    externalLink: "https://task-app-andemosa.vercel.app/",
+    githubLink: "https://github.com/andemosa/task-app",
+    imageLink: `/images/task-app.webp`,
   },
 ];
 
@@ -62,9 +62,14 @@ export const Projects: FC = () => {
         "Here are some of my favourite projects that I enjoyed working on during my free time."
       }
     >
-      <div className="px-4 mx-auto mt-10 md:mt-20 md:px-8 max-w-screen-md grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center">
+      <div className="px-4 mx-auto mt-10 md:hidden max-w-screen-md grid grid-cols-1 gap-4 place-items-center">
         {projects.map((project, i) => (
-          <ProjectCard key={i} {...project} />
+          <MobileProjectCard key={i} {...project} />
+        ))}
+      </div>
+      <div className="hidden px-4 mx-auto mt-10 md:mt-20 md:px-8 max-w-screen-lg md:flex flex-col gap-3">
+        {projects.map((project, i) => (
+          <DesktopProjectCard key={i} {...project} rightShift={i % 2 === 0} />
         ))}
       </div>
     </Section>

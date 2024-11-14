@@ -79,12 +79,14 @@ export const DesktopProjectCard = ({
             rightShift && "md:justify-end"
           )}
         >
+          {githubLink ? (
+            <MediaIcon
+              icon={<FaGithub className="w-6 h-6" />}
+              href={githubLink}
+            />
+          ) : null}
           <MediaIcon
-            icon={<FaGithub className="w-6 h-6" />}
-            href={githubLink}
-          />
-          <MediaIcon
-            icon={<FiExternalLink className="w-6 h-6 text-white-900" />}
+            icon={<FiExternalLink className="w-6 h-6 text-black-900 dark:text-white-900" />}
             href={externalLink}
           />
         </div>

@@ -6,34 +6,42 @@ import { MobileProjectCard } from "./libs/ProjectCard/Mobile";
 
 const projects = [
   {
+    title: "Diabetes Care Network",
+    subtitle: "",
+    description:
+      "The Diabetes Care Network (TDCN) is dedicated to bridging the knowledge gap in the management of type 2 diabetes in Nigeria.",
+    technologies: ["NextJS", "Typescript"],
+    externalLink: "https://thediabetescarenetwork.com/",
+    githubLink: "",
+    imageLink: `/images/tdcn.webp`,
+  },
+  {
+    title: "NFTicket",
+    subtitle: "",
+    description:
+      "This is a decentralized NFT ticketing platform developed in the Based Africa Buildathon to guarantee secure, verifiable ticket ownership.",
+    technologies: [
+      "Typescript",
+      "ReactJS",
+      "TailwindCSS",
+      "Solidity",
+      "Foundry",
+      "Coinbase OnchainKit",
+      "Ethers.js"
+    ],
+    externalLink: "https://nf-ticket.vercel.app/",
+    githubLink: "https://github.com/Dearestchoice/NfTicket",
+    imageLink: `/images/nfticket.webp`,
+  },
+  {
     title: "Creon",
     subtitle: "",
     description:
       "This is a pixel-perfect integration of a landing page for Creon, an NFT, AI web project",
-    technologies: ["NextJS", "Tailwind", "ShadcnUI", "Typescript"],
+    technologies: ["NextJS", "TailwindCSS", "ShadcnUI", "Typescript"],
     externalLink: "https://creon-andemosa.vercel.app/",
     githubLink: "https://github.com/andemosa/creon",
     imageLink: "/images/creon.webp",
-  },
-  {
-    title: "Countries",
-    subtitle: "",
-    description:
-      "Frontend Mentor - REST Countries API with color theme switcher",
-    technologies: ["ReactJS", "Styled-Components", "React-Query", "Typescript"],
-    externalLink: "https://rest-countries-six.vercel.app/",
-    githubLink: "https://github.com/andemosa/rest-countries",
-    imageLink: `/images/search.webp`,
-  },
-  {
-    title: "Next-Amazona",
-    subtitle: "",
-    description:
-      "This is an e-commerce app similar to amazon where users can purchase items",
-    technologies: ["NextJS", "Typescript", "MaterialUI", "MongoDB"],
-    externalLink: "https://next-ts-ecommerce.vercel.app/",
-    githubLink: "https://github.com/andemosa/next-ts-ecommerce",
-    imageLink: `/images/ecommerce.webp`,
   },
   {
     title: "Task Manager",
@@ -45,7 +53,7 @@ const projects = [
       "NodeJS",
       "Typescript",
       "React-Redux",
-      "Tailwind",
+      "TailwindCSS",
     ],
     externalLink: "https://task-app-andemosa.vercel.app/",
     githubLink: "https://github.com/andemosa/task-app",

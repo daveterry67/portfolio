@@ -49,15 +49,15 @@ export const MobileProjectCard = ({
           <div className="flex flex-col text-sm gap-2">
             <p>{arrayToString(technologies)}</p>
             <div className="flex gap-2">
+              {githubLink ? (
+                <MediaIcon
+                  icon={<FaGithub className="w-6 h-6 text-white-900" />}
+                  href={githubLink}
+                  className="mr-4"
+                />
+              ) : null}
               <MediaIcon
-                icon={<FaGithub className="w-6 h-6 text-white-900" />}
-                href={githubLink}
-                className="mr-4"
-              />
-              <MediaIcon
-                icon={
-                  <FiExternalLink className="w-6 h-6 text-white-900" />
-                }
+                icon={<FiExternalLink className="w-6 h-6 text-white-900" />}
                 href={externalLink}
               />
             </div>

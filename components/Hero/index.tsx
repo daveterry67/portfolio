@@ -1,7 +1,7 @@
 import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { FC } from "react";
-import { FaGithub, FaLinkedin, FaPaperclip, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import { HandWave } from "./libs/HandWave";
 import { HeroLink } from "./libs/HeroLink";

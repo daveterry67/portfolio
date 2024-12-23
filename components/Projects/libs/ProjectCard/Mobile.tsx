@@ -36,7 +36,7 @@ export const MobileProjectCard = ({
     <div className="border max-w-md w-full h-64 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden dark:border-gray-700">
       <div className="w-full h-full relative bg-cover bg-center">
         <img
-          className="w-24 h-24 transition-transform transform hover:opacity-0 object-fill"
+          className="w-full h-full transition-transform transform hover:opacity-0 object-fill"
           src={imageLink}
           alt=""
         />

@@ -11,7 +11,7 @@ const projects = [
     description:
       "A modern solution for managing cryptocurrency portfolios with a focus on security and user-friendly interfaces.",
     technologies: ["React Native", "TypeScript"],
-    externalLink: "/public/CryptoKeeper.aab",
+    externalLink: "/files/CryptoKeeper.aab",
     githubLink: "",
     imageLink: `/images/cryptokeeper.jpg`,
   },
@@ -21,7 +21,7 @@ const projects = [
     description:
       "A streamlined dashboard tool for visualizing and managing data effectively, tailored for scalability and performance.",
     technologies: ["React Native"],
-    externalLink: "/public/Dashify.aab",
+    externalLink: "/files/Dashify.aab",
     githubLink: "",
     imageLink: `/images/dashify.jpg`,
   },

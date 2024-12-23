@@ -33,7 +33,7 @@ export const MobileProjectCard = ({
   imageLink,
 }: Props) => {
   return (
-    <div className="border max-w-md w-full h-64 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden dark:border-gray-700">
+    <div className="border max-w-md w-full h-96 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden dark:border-gray-700">
       <div className="w-full h-full relative bg-cover bg-center">
         <img
           className="w-full h-full transition-transform transform hover:opacity-0 object-fill"

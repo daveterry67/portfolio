@@ -8,24 +8,29 @@ import { Item } from "./libs/Item";
 
 const experience = [
   {
-    title: "Full-stack Developer",
-    place: "Skibble",
-    date: "June 2023 - Mar 2024",
+    title: "Software Engineer",
+    place: "Cypher X",
+    date: "September 2024 - December 2024",
   },
   {
-    title: "Frontend Web Developer",
-    place: "Helixgade Technologies (Contract)",
-    date: "Feb 2023 - June 2023",
+    title: "Software Engineer",
+    place: "Hagion International Limited",
+    date: "March 2024 - December 2024",
+  },
+  {
+    title: "Software Engineer",
+    place: "TalentOven Limited (Contract)",
+    date: "December 2023 - August 2024",
+  },
+  {
+    title: "Frontend Engineer",
+    place: "Meghee",
+    date: "June 2024 - July 2024",
   },
   {
     title: "Frontend Developer",
-    place: "Dantown",
-    date: "Jan 2021 - Oct 2022",
-  },
-  {
-    title: "Software Developer Intern",
-    place: "Hackernoon",
-    date: "Jan 2022 - July 2022",
+    place: "Helixgade Technologies (Contract)",
+    date: "April 2022 - December 2022",
   },
 ];
 

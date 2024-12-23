@@ -6,58 +6,54 @@ import { MobileProjectCard } from "./libs/ProjectCard/Mobile";
 
 const projects = [
   {
-    title: "Diabetes Care Network",
+    title: "CryptoKeeper",
     subtitle: "",
     description:
-      "The Diabetes Care Network (TDCN) is dedicated to bridging the knowledge gap in the management of type 2 diabetes in Nigeria.",
-    technologies: ["NextJS", "Typescript"],
-    externalLink: "https://thediabetescarenetwork.com/",
+      "A modern solution for managing cryptocurrency portfolios with a focus on security and user-friendly interfaces.",
+    technologies: ["React Native", "TypeScript"],
+    externalLink: "/public/CryptoKeeper.aab",
     githubLink: "",
-    imageLink: `/images/tdcn.webp`,
+    imageLink: `/images/cryptokeeper.jpg`,
   },
   {
-    title: "NFTicket",
+    title: "Dashify",
     subtitle: "",
     description:
-      "This is a decentralized NFT ticketing platform developed in the Based Africa Buildathon to guarantee secure, verifiable ticket ownership.",
-    technologies: [
-      "Typescript",
-      "ReactJS",
-      "TailwindCSS",
-      "Solidity",
-      "Foundry",
-      "Coinbase OnchainKit",
-      "Ethers.js"
-    ],
-    externalLink: "https://nf-ticket.vercel.app/",
+      "A streamlined dashboard tool for visualizing and managing data effectively, tailored for scalability and performance.",
+    technologies: ["React Native"],
+    externalLink: "/public/Dashify.aab",
+    githubLink: "",
+    imageLink: `/images/dashify.jpg`,
+  },
+  {
+    title: "QuickCV",
+    subtitle: "",
+    description:
+      "A platform to easily create professional resumes and showcase skills, experience, and education in a streamlined way.",
+    technologies: ["React Native, TypeScript"],
+    externalLink: "/files/QuickCV.aab",
     githubLink: "https://github.com/Dearestchoice/NfTicket",
-    imageLink: `/images/nfticket.webp`,
+    imageLink: `/images/quick-cv.jpg`,
   },
   {
-    title: "Creon",
+    title: "JobHive",
     subtitle: "",
     description:
-      "This is a pixel-perfect integration of a landing page for Creon, an NFT, AI web project",
-    technologies: ["NextJS", "TailwindCSS", "ShadcnUI", "Typescript"],
-    externalLink: "https://creon-andemosa.vercel.app/",
+      "A job search platform that allows users to filter and search for job opportunities with ease, designed to connect employers and job seekers.",
+    technologies: ["React Native"],
+    externalLink: "/files/JobHive.aab",
     githubLink: "https://github.com/andemosa/creon",
-    imageLink: "/images/creon.webp",
+    imageLink: "/images/jobhive.jpg",
   },
   {
-    title: "Task Manager",
+    title: "EduTrack",
     subtitle: "",
     description:
-      "A task manager application allowing users to add, edit, delete and view all tasks to be carried out per day",
-    technologies: [
-      "ReactJS",
-      "NodeJS",
-      "Typescript",
-      "React-Redux",
-      "TailwindCSS",
-    ],
-    externalLink: "https://task-app-andemosa.vercel.app/",
+      "A classroom application for students to manage their tasks, assignments, and schedule, helping them stay organized and on track.",
+    technologies: ["React Native"],
+    externalLink: "/files/EduTrack.aab",
     githubLink: "https://github.com/andemosa/task-app",
-    imageLink: `/images/task-app.webp`,
+    imageLink: `/images/edutrack.jpg`,
   },
 ];
 

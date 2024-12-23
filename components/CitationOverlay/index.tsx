@@ -59,7 +59,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}
         >
-          I enjoyed working with Anderson. You would too.
+          I enjoyed working with David. You would too.
         </motion.p>
         <motion.p
           className="text-base md:text-right dark:text-white-700 text-black-700"

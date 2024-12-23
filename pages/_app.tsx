@@ -8,15 +8,13 @@ import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
 
 const keywords = [
-  "Anderson",
-  "Anderson Osayerie",
+  "David",
+  "David Dappa",
   "Software Developer",
-  "Technical Writer",
   "Web Developer",
   "React Developer",
   "Frontend Web Developer",
-  "Backend Web Developer",
-  "Fullstack Web Developer",
+  "Frontend Mobile Developer",
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {

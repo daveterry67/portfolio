@@ -1,5 +1,4 @@
 import {
-  Blog,
   CitationOverlay,
   Contact,
   Experience,
@@ -29,7 +28,7 @@ const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>Anderson Osayerie</title>
+        <title>Dappa David</title>
       </Head>
       <CitationOverlay citation={citation} />
       <motion.main
@@ -54,7 +53,6 @@ const IndexPage = () => {
         <Skills />
         <Experience />
         <Projects />
-        <Blog />
         <Contact />
         <Footer />
       </motion.main>

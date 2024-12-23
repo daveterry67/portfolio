@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+import { FaDownload } from "react-icons/fa";
 
 import { MediaIcon } from "components";
 
@@ -36,7 +36,7 @@ export const MobileProjectCard = ({
     <div className="border max-w-md w-full h-64 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden dark:border-gray-700">
       <div className="w-full h-full relative bg-cover bg-center">
         <img
-          className="w-full h-full transition-transform transform hover:opacity-0 object-fill"
+          className="w-24 h-24 transition-transform transform hover:opacity-0 object-fill"
           src={imageLink}
           alt=""
         />
@@ -56,10 +56,9 @@ export const MobileProjectCard = ({
                   className="mr-4"
                 />
               ) : null}
-              <MediaIcon
-                icon={<FiExternalLink className="w-6 h-6 text-white-900" />}
-                href={externalLink}
-              />
+              <a href={externalLink} download>
+                <FaDownload className="w-6 h-6 text-black-900 dark:text-white-900" />
+              </a>
             </div>
           </div>
         </div>

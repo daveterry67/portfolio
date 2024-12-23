@@ -2,15 +2,16 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { FC, useEffect } from "react";
 import { FaReact } from "react-icons/fa";
-import { SiFirebase, SiGraphql, SiNodedotjs } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { SiFirebase, SiGraphql } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
-import { MongoIcon, TsIcon } from "./libs/Icons";
+import { TsIcon } from "./libs/Icons";
 import { Skill } from "./libs/Skill";
 
 const skills = [
   {
-    name: "Typescript",
+    name: "TypeScript",
     href: "https://www.typescriptlang.org/",
     icon: <TsIcon />,
   },
@@ -20,14 +21,9 @@ const skills = [
     icon: <FaReact color="#00D8FF" />,
   },
   {
-    name: "Node.js",
-    href: "https://nodejs.org/",
-    icon: <SiNodedotjs color="#539E43" />,
-  },
-  {
-    name: "MongoDB",
-    href: "https://www.mongodb.com/",
-    icon: <MongoIcon />,
+    name: "React Native",
+    href: "https://reactjs.org/",
+    icon: <TbBrandReactNative color="#00D8FF" />,
   },
   {
     name: "Firebase",

@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+import { FaDownload } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 import { MediaIcon } from "components";
@@ -85,10 +85,9 @@ export const DesktopProjectCard = ({
               href={githubLink}
             />
           ) : null}
-          <MediaIcon
-            icon={<FiExternalLink className="w-6 h-6 text-black-900 dark:text-white-900" />}
-            href={externalLink}
-          />
+          <a href={externalLink} download>
+            <FaDownload className="w-6 h-6 text-black-900 dark:text-white-900" />
+          </a>
         </div>
       </div>
       <motion.div
@@ -109,7 +108,7 @@ export const DesktopProjectCard = ({
         initial="initial"
       >
         <img
-          className="object-cover w-full h-full rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80 overflow-hidden"
+          className="object-cover w-56 h-16 rounded-lg opacity-30 md:h-auto dark:opacity-40 md:opacity-100 md:dark:opacity-80 overflow-hidden"
           src={imageLink}
           alt={title}
           style={{
